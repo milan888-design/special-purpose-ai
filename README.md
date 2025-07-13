@@ -22,7 +22,7 @@ flowchart TD
     A[specific knowledge]-->|Synchronize with|B[vector store]  
     C[your question] -->|is used by|D[vector search algorithm]     
     D[vector search algorithm]-->|searches vector store to create|E[prompt]  
-    C[your question] -->|is used by|D[AI model]   
+    C[your question] -->|is used by|F[AI model]   
     E[prompt]-->|is used by|F[AI model]   
     F[AI model]-->|uses reasoning to produce|G[the answer]  
 ```   
@@ -39,8 +39,8 @@ flowchart TD
     A[specific knowledge]-->|Synchronize with|B[vector store]    
     C[your question]-->|is used by|D[vector search algorithm]      
     D[vector search algorithm]-->|searches vector store to create|E[prompt]    
-    C[your question] -->|is used by|D[AI model]     
-    E[prompt]-->|is used by|D[AI model]     
-    D[AI model]-->|uses reasoning to produce|G[the answer]    
+    C[your question] -->|is used by|F[AI model]     
+    E[prompt]-->|is used by|F[AI model]     
+    F[AI model]-->|uses reasoning to produce|G[the answer]    
 ```    
 
