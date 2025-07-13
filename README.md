@@ -16,7 +16,7 @@ DataJoin.net provides in-depth education and consultation on special purpose AI 
   
 https://github.com/milan888-design/special-purpose-ai
   
-## Flowchart- Special purpose AI
+## Flowchart- Special purpose AI  
 ```mermaid  
 flowchart TD  
     A[specific knowledge] -->|Synchronize with| B[vector store]  
@@ -27,7 +27,7 @@ flowchart TD
     F[AI model]    -->|uses reasoning to produce| G[the answer] 
 ```  
   
-## Flowchart- Special purpose AI details
+## Flowchart- Special purpose AI details  
 ```mermaid  
 flowchart TD  
     H[specific knowledge in database] -->|is a| A[specific knowledge]  
