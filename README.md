@@ -2,11 +2,7 @@
 
 special-purpose-ai  
 
-
-
-\## Overview  
-
-
+## Overview  
 
 Problem: All AI Models are designed to store your questions and prompts as part of the learning process. That means your information will not be private, it will be part of global knowledge, and it can be given to other users. This is a problem for the Government or Finance or Medical industry, since it is very difficult to hide/mask personal information during interaction with AI. Also, it is very difficult to force the hosted AI model to use specific information from your organization to answer the question.  AI will hallucinate and may not provide focused answers.  
   
@@ -14,7 +10,9 @@ Solution: Special purpose private AI model can use your organization's knowledge
   
 DataJoin.net provides in-depth education and consultation on special purpose AI model.  
   
-https://github.com/milan888-design/special-purpose-ai
+milan@datajoin.net  
+http://datajoin.net  
+https://github.com/milan888-design/special-purpose-ai  
   
 ## Flowchart- Special purpose AI  
 ```mermaid  
