@@ -1,0 +1,20 @@
+CREATE document_embeddings_content
+CREATE TABLE IF NOT EXISTS public.document_embeddings_content
+(
+    id text COLLATE pg_catalog."default" NOT NULL,
+    embedding vector(1536) NOT NULL,
+    CONSTRAINT document_embeddings_content_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.document_embeddings_content
+    OWNER to postgres;
+-- Index: document_embeddings_embedding_content_idx
+
+-- DROP INDEX IF EXISTS public.document_embeddings_embedding_content_idx;
+
+CREATE INDEX IF NOT EXISTS document_embeddings_embedding_content_idx
+    ON public.document_embeddings_content USING hnsw
+    (embedding vector_l2_ops)
+    TABLESPACE pg_default;
