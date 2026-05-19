@@ -10,8 +10,8 @@ Solution: Special purpose private AI model can use your organization's knowledge
   
 DataJoin.net provides in-depth education and consultation on special purpose AI model.  
   
-milan@datajoin.net  
-http://datajoin.net  
+milanp979@gmail.com  
+https://systemdna.com  
 https://github.com/milan888-design/special-purpose-ai  
   
 ## Flowchart- Special purpose AI  
